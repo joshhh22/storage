@@ -1,6 +1,53 @@
 body {
-    background-color: #f8f9fa;
-  }
-  li span {
+    background: linear-gradient(135deg, #f5f5dc, #d2b48c); /* Beige to tan gradient */
+    color: #4b3832; /* Dark brown for text */
+    font-family: 'Georgia', serif; /* Elegant serif font */
+}
+.container {
+    background: rgba(255, 248, 220, 0.9); /* Cornsilk-like background */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    font-weight: bold;
+    color: #8b4513; /* Saddle brown for headings */
+}
+.form-control {
+    background: rgba(255, 248, 220, 0.8); /* Cornsilk-like background */
+    color: #4b3832;
+    border: 1px solid #d2b48c; /* Tan border */
+}
+.form-control:focus {
+    background: rgba(255, 248, 220, 0.9);
+    color: #4b3832;
+    box-shadow: 0 0 5px #d2b48c; /* Subtle tan glow */
+}
+.btn-primary {
+    background-color: #8b4513; /* Saddle brown */
+    border: none;
+    color: #fff;
+}
+.btn-primary:hover {
+    background-color: #a0522d; /* Sienna */
+}
+.btn-secondary {
+    background-color: rgba(255, 248, 220, 0.8);
+    border: 1px solid #d2b48c;
+    color: #4b3832;
+}
+.btn-secondary:hover {
+    background-color: rgba(255, 248, 220, 1);
+}
+.list-group-item {
+    background: rgba(255, 248, 220, 0.8);
+    color: #4b3832;
+    border: 1px solid #d2b48c;
+}
+.list-group-item:hover {
+    background: rgba(255, 248, 220, 1);
+}
+li span {
     margin-right: 10px;
-  }
+    color: #8b4513; /* Saddle brown for list item icons */
+}
